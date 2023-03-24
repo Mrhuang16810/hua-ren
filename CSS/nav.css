@@ -1,0 +1,81 @@
+nav .hamburger_outside{
+    width: 64px;
+    height: 64px;
+    display: block;
+    float: right;
+}
+nav .hamburger_outside label .box{
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+    position: relative;
+    top: 17px;
+}
+#toggler{
+    display: none;
+}
+nav .hamburger_outside label .box span{
+    width: 40px;
+    height: 8px;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    transition: transform .3s ease-in-out,top .3s ease-in-out .3s;
+    top: 0;
+}
+nav .hamburger_outside label .box span:nth-of-type(2){
+    margin-top: 14px;
+}
+#toggler:checked ~ label .box span:nth-of-type(1){
+    transform: rotate(45deg);
+    top: 11px;
+    transition: top .3s ease-in-out,transform .3s ease-in-out .3s;
+}
+#toggler:checked ~ label .box span:nth-of-type(2){
+    transform: rotate(-45deg);
+    top: -11px;
+    transition: top .3s ease-in-out,transform .3s ease-in-out .3s;
+}
+nav .hamburger_outside .hamburger_section{
+    position: absolute;
+    margin: 0;
+    right: 30px;
+    background-color: rgba(0,0,0,.85);
+    color: #fff;
+    list-style: none;
+    transform: scaleY(0);
+    transition: transform .5s ease-in-out;
+    transform-origin: center top;
+    top: 64px;
+    right: 0;
+}
+nav .hamburger_outside .hamburger_section a .hamburger_section_item{
+    text-decoration: none;
+    color: #fff;
+    height: 64px;
+    padding: 0 10px 0 10px;
+    margin: 0 24px 0 24px;
+    line-height: 64px;
+    font-size: 20px;
+}
+nav .hamburger_outside .hamburger_section .hamburger_section_item:hover{
+    background-color: #fff;
+    color: #000;
+}
+#toggler:checked ~ .hamburger_section{
+    transform: scaleY(1);
+}
+@media screen and (min-width:992px){
+    nav .hamburger_outside label .box{
+        display: none;
+    }
+    nav .hamburger_outside .hamburger_section{
+        top: auto;
+        background-color: transparent;
+        transform: scaleY(1);
+    }
+    nav .hamburger_outside .hamburger_section .hamburger_section_item{
+        float: left;
+        margin: 10px 20px 0 20px;
+    }
+}
