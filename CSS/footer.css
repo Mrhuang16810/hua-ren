@@ -79,7 +79,7 @@ footer .card_container:hover .back_map{
 }
 @media screen and (max-width:768px){
     .right_container{
-        margin-top: 0;
+        margin: 20px 0 0 0;
         display: flex;
         justify-content: center;
         align-items: center;

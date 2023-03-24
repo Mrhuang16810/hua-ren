@@ -1,7 +1,7 @@
 .entrust_container .classification_box{
     width: 200px;
     height: 90px;
-    border: 3px outset #ccc;
+    border: 3px outset #000;
     margin: 10px;
     display: inline-block;
     line-height: 50px;
