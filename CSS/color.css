@@ -11,7 +11,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container .small_img{
     height: 105px;
@@ -74,7 +74,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_1 .small_img{
     height: 105px;
@@ -137,7 +137,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_2 .small_img{
     height: 105px;
@@ -200,7 +200,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_3 .small_img{
     height: 105px;
@@ -263,7 +263,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_4 .small_img{
     height: 105px;
@@ -326,7 +326,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_5 .small_img{
     height: 105px;
@@ -389,7 +389,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_6 .small_img{
     height: 180px;
@@ -452,7 +452,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_7 .small_img{
     height: 108px;
@@ -513,7 +513,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_8 .small_img{
     height: 108px;
@@ -574,7 +574,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_9 .small_img{
     height: 108px;
@@ -635,7 +635,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_10 .small_img{
     height: 134px;
@@ -696,7 +696,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_11 .small_img{
     height: 108px;
@@ -757,7 +757,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_12 .small_img{
     height: 134px;
@@ -818,7 +818,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_13 .small_img{
     height: 108px;
@@ -879,7 +879,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_14 .small_img{
     height: 108px;
@@ -940,7 +940,7 @@
     position: relative;
     z-index: 999;
     background-color: #fff;
-    transition: width 1s ease-in-out, height 1s ease-in-out 1s;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
 }
 .entrust_container .color_container_15 .small_img{
     height: 108px;
