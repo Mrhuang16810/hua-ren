@@ -1,0 +1,23 @@
+.entrust_container .classification_box{
+    width: 200px;
+    height: 90px;
+    border: 3px outset #000;
+    margin: 10px;
+    display: inline-block;
+    line-height: 50px;
+    border-radius: 30%;
+}
+.entrust_container .classification_box p{
+    margin: 0;
+    letter-spacing: 8px;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000
+}
+.entrust_container a{
+    text-decoration: none;
+}
+.entrust_container .classification_box:hover{
+    background-color: floralwhite;
+    cursor: pointer;
+}
