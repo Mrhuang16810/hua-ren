@@ -192,7 +192,7 @@
     display: none;
 }
 #arrow_2:checked ~ .color_container_2{
-    width: 1090px;
+    width: 1105px;
     height: 500px;
     background-image: url("colors_img/My project-3.jpg");
     background-position: right;
@@ -260,7 +260,7 @@
     display: none;
 }
 #arrow_3:checked ~ .color_container_3{
-    width: 1048px;
+    width: 1060px;
     height: 500px;
     background-image: url("colors_img/My project-4.jpg");
     background-position: right;
@@ -412,7 +412,7 @@
 }
 /*            7*/
 .entrust_container .color_container_6{
-    width: 507px;
+    width: 512px;
     height: 223px;
     margin: 5px 0 5px 0;
     border: 3px solid;
@@ -437,7 +437,7 @@
     margin: -112px 0 0 175px;
     text-align: left;
     font-size: 12px;
-    width: 330px;
+    width: 335px;
     height: 12px;
     color: #000;
     position: absolute;
@@ -464,7 +464,7 @@
     display: none;
 }
 #arrow_6:checked ~ .color_container_6{
-    width: 1240px;
+    width: 1260px;
     height: 475px;
     background-image: url("colors_img/My project-7.jpg");
     background-position: right;
@@ -1008,7 +1008,7 @@
     display: none;
 }
 #arrow_14:checked ~ .color_container_14{
-    width: 1080px;
+    width: 1090px;
     height: 475px;
     background-image: url("colors_img/My project-15.jpg");
     background-position: right;
