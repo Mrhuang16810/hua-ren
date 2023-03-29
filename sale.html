@@ -67,6 +67,158 @@
                 </div>
             </div>
         </section>
+        <style>
+            .sale_container{
+                position: relative;
+            }
+            .sale_container .sale_image{
+                width: 225px;
+                height: 299px;
+                border: 3px solid #ccc;
+                margin: 5px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                transition: width .8s ease-in-out,height .8s ease-in-out .8s,background-image .8s ease-in-out 1.6s;
+            }
+            .sale_container .sale_image .one_img{
+                width: 225px;
+                border-top-left-radius: 18px;
+                border-bottom-left-radius: 18px;
+            }
+            .sale_container .sale_image .total_img{
+                margin-left: 90px;
+            }
+            .sale_container .sale_name{
+                width: 85px;
+                height: 60px;
+                line-height: 20px;
+                text-align: center;
+                border: 4px ridge #666;
+                position: absolute;
+                top: 0;
+                margin: 0 0 0 236px;
+            }
+            .sale_container .sale_name p{
+                margin: 0;
+                font-size: 13px;
+            }
+            .sale_container .sale_price_1{
+                width: 85px;
+                height: 40px;
+                line-height: 20px;
+                text-align: center;
+                border: 4px ridge #666;
+                position: absolute;
+                top: 0;
+                margin: 64px 0 0 236px;
+            }
+            .sale_container .sale_price_1 p{
+                margin: 0;
+                font-size: 13px;
+            }
+            .sale_container .sale_price_2{
+                width: 85px;
+                height: 40px;
+                line-height: 20px;
+                text-align: center;
+                border: 4px ridge #666;
+                position: absolute;
+                top: 0;
+                margin: 108px 0 0 236px;
+            }
+            .sale_container .sale_price_2 p{
+                margin: 0;
+                font-size: 13px;
+            }
+            .sale_container .sale_price_3{
+                width: 89px;
+                height: 88px;
+                line-height: 18px;
+                text-align: center;
+                border: 4px ridge #666;
+                position: absolute;
+                top: 0;
+                margin: 152px 0 0 236px;
+                border-right: none;
+                font-weight: 900;
+            }
+            .sale_container .sale_price_3 p{
+                margin: 0 0 0 2px;
+                font-size: 13px;
+                text-align: left;
+            }
+            #porduct_information{
+                display: none;
+            }
+            #porduct_information:checked ~ .sale_image{
+                width: 1210px;
+                height: 1225px;
+                background-image: url("CSS/sale_img/My project-1.jpg");
+                background-position: right;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .sale_container .sale_price_4{
+                width: 89px;
+                height: 53px;
+                line-height: 53px;
+                text-align: center;
+                border: 4px ridge #666;
+                position: absolute;
+                top: 0;
+                margin: 244px 0 0 236px;
+                border-right: none;
+                font-weight: 900;
+            }
+            .sale_container .sale_price_4 .chinese_p{
+                font-size: 17px;
+                letter-spacing: 2px;
+                margin: 0;
+            }
+            .sale_container .sale_price_4 .english_p{
+                margin: -38px;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+            .sale_container .sale_price_4 a{
+                text-decoration: none;
+                color: #000;
+            }
+        </style>
+        <section class="container">
+            <div class="sale_container">
+                <input type="checkbox" id="porduct_information">
+                <div class="sale_image">
+                    <img class="one_img" src="CSS/sale_img/product_40350826_o_14.jpeg">
+                </div>
+                <div class="sale_name">
+                    <p>吸濕排汗衫 ❶❹色 ❹尺寸 🚹🚺男女可穿</p>
+                </div>
+                <div class="sale_price_1">
+                    <p>M ~ XL</p>
+                    <p>$ 100</p>
+                </div>
+                <div class="sale_price_2">
+                    <p>2 L</p>
+                    <p>$ 150</p>
+                </div>
+                <label for="porduct_information">
+                    <div class="sale_price_3">
+                        <p>產</p>
+                        <p>品</p>
+                        <p>資</p>
+                        <p>訊</p>
+                        <p>➤OPEN➤➤➤</p>
+                    </div>
+                </label>
+                <div class="sale_price_4">
+                    <a href="https://line.me/ti/p/idKsUhdGUD">
+                        <p class="chinese_p">訂購</p>
+                        <p class="english_p">order</p>
+                    </a>
+                </div>
+            </div>
+        </section>
         <footer>
             <div class="row">
                 <div class="col-phone-100 col-tablet-50 card_container">
