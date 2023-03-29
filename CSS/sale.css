@@ -83,7 +83,7 @@
 #porduct_information:checked ~ .sale_image{
     width: 1210px;
     height: 1225px;
-    background-image: url("CSS/sale_img/My project-1.jpg");
+    background-image: url("sale_img/My%20project-1.jpg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
