@@ -73,6 +73,7 @@ nav .hamburger_outside .hamburger_section .hamburger_section_item:hover{
         top: auto;
         background-color: transparent;
         transform: scaleY(1);
+        text-decoration: none;
     }
     nav .hamburger_outside .hamburger_section .hamburger_section_item{
         float: left;

@@ -1,3 +1,829 @@
+/*新布12*/
+.entrust_container .color_container_1_12{
+    width: 400px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_12 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_12 h3{
+    margin: 26px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_12 h4{
+    margin: -55px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 170px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_12 h5{
+    margin: 72px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 170px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_12 p{
+    margin: 10px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_12{
+    display: none;
+}
+#arrow_1_12:checked ~ .color_container_1_12{
+    width: 1160px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D11.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_12 .color_images_1_12{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布11*/
+.entrust_container .color_container_1_11{
+    width: 390px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_11 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_11 h3{
+    margin: 26px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_11 h4{
+    margin: -55px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 155px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_11 h5{
+    margin: 72px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 155px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_11 p{
+    margin: 10px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_11{
+    display: none;
+}
+#arrow_1_11:checked ~ .color_container_1_11{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D10.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_11 .color_images_1_11{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布10*/
+.entrust_container .color_container_1_10{
+    width: 390px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_10 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_10 h3{
+    margin: 26px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_10 h4{
+    margin: -55px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 155px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_10 h5{
+    margin: 72px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 155px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_10 p{
+    margin: 0 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_10{
+    display: none;
+}
+#arrow_1_10:checked ~ .color_container_1_10{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D9.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_10 .color_images_1_10{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布9*/
+.entrust_container .color_container_1_9{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_9 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_9 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_9 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_9 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_9 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_9{
+    display: none;
+}
+#arrow_1_9:checked ~ .color_container_1_9{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D8.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_9 .color_images_1_8{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布8*/
+.entrust_container .color_container_1_8{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_8 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_8 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_8 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_8 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_8 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_8{
+    display: none;
+}
+#arrow_1_8:checked ~ .color_container_1_8{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D7.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_8 .color_images_1_8{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布7*/
+.entrust_container .color_container_1_7{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_7 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_7 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_7 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_7 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_7 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_7{
+    display: none;
+}
+#arrow_1_7:checked ~ .color_container_1_7{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D6.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_7 .color_images_1_7{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布6*/
+.entrust_container .color_container_1_6{
+    width: 415px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_6 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_6 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_6 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 185px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_6 h5{
+    margin: 65px 0 5px 220px;
+    text-align: left;
+    font-size: 12px;
+    width: 190px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_6 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_6{
+    display: none;
+}
+#arrow_1_6:checked ~ .color_container_1_6{
+    width: 1180px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D5.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_6 .color_images_1_6{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布5*/
+.entrust_container .color_container_1_5{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_5 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_5 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_5 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_5 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_5 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_5{
+    display: none;
+}
+#arrow_1_5:checked ~ .color_container_1_5{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D4.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_5 .color_images_1_5{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布4*/
+.entrust_container .color_container_1_4{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_4 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_4 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_4 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_4 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_4 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_4{
+    display: none;
+}
+#arrow_1_4:checked ~ .color_container_1_4{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D3.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_4 .color_images_1_4{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+
+/*新布3*/
+.entrust_container .color_container_1_3{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_3 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_3 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_3 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_3 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_3 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_3{
+    display: none;
+}
+#arrow_1_3:checked ~ .color_container_1_3{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D2.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_3 .color_images_1_3{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+/*新布2*/
+.entrust_container .color_container_1_2{
+    width: 375px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_2 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_2 h3{
+    margin: 33px 0 10px 225px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_2 h4{
+    margin: -62px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_2 h5{
+    margin: 65px 0 5px 225px;
+    text-align: left;
+    font-size: 12px;
+    width: 145px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_2 p{
+    margin: 5px 0 0 225px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_2{
+    display: none;
+}
+#arrow_1_2:checked ~ .color_container_1_2{
+    width: 1140px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1).jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_2 .color_images_1_2{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+/*新布1*/
+.entrust_container .color_container_1_1{
+    width: 365px;
+    height: 143px;
+    margin: 5px 0 5px 0;
+    border: 3px solid;
+    border-radius: 10px;
+    position: relative;
+    z-index: 999;
+    background-color: #fff;
+    transition: width .5s ease-in-out, height .8s ease-in-out .5s;
+}
+.entrust_container .color_container_1_1 .small_img{
+    height: 143px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+.entrust_container .color_container_1_1 h3{
+    margin: 40px 0 5px 255px;
+    color: cadetblue;
+    text-align: left;
+}
+.entrust_container .color_container_1_1 h4{
+    margin: -65px 0 5px 255px;
+    text-align: left;
+    font-size: 12px;
+    width: 105px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: underline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_1 h5{
+    margin: 63px 0 5px 255px;
+    text-align: left;
+    font-size: 12px;
+    width: 105px;
+    height: 12px;
+    color: #000;
+    position: absolute;
+    text-decoration: overline;
+    background-color: beige;
+}
+.entrust_container .color_container_1_1 p{
+    margin: 5px 0 0 255px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+#arrow_1_1{
+    display: none;
+}
+#arrow_1_1:checked ~ .color_container_1_1{
+    width: 1240px;
+    height: 500px;
+    background-image: url("colors_img/My%20project-1%20(1)%E6%8B%B7%E8%B2%9D.jpg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.entrust_container .color_container_1_1 .color_images_1_1{
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    margin-left: 256px;
+    margin-top: -95px;
+}
+/*1*/
 .entrust_container{
     display: table;
     width: 100%;
