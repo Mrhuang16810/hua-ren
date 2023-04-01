@@ -74,6 +74,7 @@
     width: inherit;
     height: inherit;
     line-height: 240px;
+    overflow: hidden;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
 }
@@ -124,6 +125,7 @@
     width: inherit;
     height: inherit;
     line-height: 180px;
+    overflow: hidden;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
 }
@@ -174,6 +176,7 @@
     width: inherit;
     height: inherit;
     line-height: 150px;
+    overflow: hidden;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
 }
@@ -224,6 +227,7 @@
     width: inherit;
     height: inherit;
     line-height: 140px;
+    overflow: hidden;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
 }
