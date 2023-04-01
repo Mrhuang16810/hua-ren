@@ -89,6 +89,9 @@
         width: 140px;
         height: 183.6px;
     }
+    .entrust_container .entrust_outside .border_box .product_container_4 .product_4_back{
+        line-height: 183.6px;
+    }
 }
 
 /*            183w縮高度1照片*/
@@ -135,6 +138,9 @@
     .entrust_container .entrust_outside .border_box .product_container_4_1{
         width: 140px;
         height: 160.6px;
+    }
+    .entrust_container .entrust_outside .border_box .product_container_4 .product_4_back{
+        line-height: 160.6px;
     }
 }
 
@@ -183,6 +189,9 @@
         width: 140px;
         height: 114.7px;
     }
+    .entrust_container .entrust_outside .border_box .product_container_4 .product_4_back{
+        line-height: 114.7px;
+    }
 }
 
 /*            183w縮高度3照片*/
@@ -229,6 +238,9 @@
     .entrust_container .entrust_outside .border_box .product_container_4_3{
         width: 140px;
         height: 107.1px;
+    }
+    .entrust_container .entrust_outside .border_box .product_container_4 .product_4_back{
+        line-height: 107.1px;
     }
 }
 
