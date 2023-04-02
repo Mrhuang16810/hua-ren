@@ -53,7 +53,7 @@
         <section>
             <div class="row">
                 <div class="col-phone-100">
-                    <ul class="carousell_container">
+                    <ul class="carousell_container" id="carousell_container_top">
                         <input type="radio" id="carousell_radio_1" name="carousell_radio" checked>
                         <input type="radio" id="carousell_radio_2" name="carousell_radio">
                         
@@ -68,8 +68,126 @@
                 </div>
             </div>
         </section>
+        <style>
+            .entrust_container{
+                margin: 20px 0 0 0;
+                padding: 0;
+            }
+            .entrust_container .entrust_box{
+                width: 115px;
+                height: 40px;
+                border: 5px outset #000;
+                border-radius: 30%;
+                text-align: center;
+                line-height: 40px;
+                list-style: none;
+                margin: 10px 0 0 70px;
+                font-size: 18px;
+                float: left;
+            }
+            .entrust_container .entrust_box a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 900;
+                letter-spacing: 5px;
+            }
+            .entrust_container .entrust_box:hover{
+                background-color: #000;
+            }
+            .entrust_container .entrust_box:hover a{
+                color: #fff;
+            }
+            .top_btn{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #ccc;
+                right: 10px;
+                bottom: 10px;
+                position: fixed;
+                opacity: .7;
+                line-height: 80px;
+                font-weight: 900;
+                font-size: 24px;
+                letter-spacing: 2px;
+            }
+            .top_btn a{
+                text-decoration: none;
+                color: #333;
+            }
+            @media screen and (max-width:990px){
+                .entrust_container .entrust_box{
+                    margin: 10px 0 0 33px;
+                }
+                .top_btn{
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    font-size: 18px;
+                }
+            }
+        </style>
         <section class="container">
+            <ul class="entrust_container">
+                <li class="entrust_box">
+                    <a href="#tshirt">長短Ｔ</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#vest">背心</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#polo">POLO</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#blouse">襯衫</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#hoodie">帽Ｔ</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#vest_coat">背心外套</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#activity_vest">活動背心</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#long_coat">長袖外套</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#lab_coat">實驗衣</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#skirt">裙</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#pants">褲</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#sports">運動類</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#little_things">小東西</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#strap" style="font-size: 14px;">值星官_揹帶</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#hat">帽子</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#apron">圍裙</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#scarf">方巾+領巾</a>
+                </li>
+                <li class="entrust_box">
+                    <a href="#armband">臂章</a>
+                </li>
+            </ul>
             <div class="row entrust_container">
+                <div class="top_btn">
+                    <a href="#carousell_container_top">TOP</a>
+                </div>
                 <div class="col-phone-100 col-tablet-50 entrust_outside">
                     <input type="checkbox" id="top_1_checked">
                     <label for="top_1_checked">
@@ -77,7 +195,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_1_checked">
-                            <h1>❐ 委託訂製服 - 長短Ｔ ❏</h1>
+                            <h1 id="tshirt">❐ 委託訂製服 - 長短Ｔ ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4">
@@ -372,7 +490,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_2_checked">
-                            <h1>❐ 委託訂製服 - 背心 ❏</h1>
+                            <h1 id="vest">❐ 委託訂製服 - 背心 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -396,7 +514,7 @@
                         </label>
                         <div class="border_box">
                             <label for="top_3_checked">
-                                <h1>❐ 委託訂製服 - ＰＯＬＯ ❏</h1>
+                                <h1 id="polo">❐ 委託訂製服 - ＰＯＬＯ ❏</h1>
                             </label>
                             <hr/>
                             <div class="product_container_4_2">
@@ -579,7 +697,7 @@
                         </label>
                         <div class="border_box">
                             <label for="top_4_checked">
-                                <h1>❐ 委託訂製服 - 襯衫 ❏</h1>
+                                <h1 id="blouse">❐ 委託訂製服 - 襯衫 ❏</h1>
                             </label>
                             <hr/>
                             <div class="product_container_4_1">
@@ -613,7 +731,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_5_checked">
-                            <h1>❐ 委託訂製服 - 帽Ｔ ❏</h1>
+                            <h1 id="hoodie">❐ 委託訂製服 - 帽Ｔ ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -732,7 +850,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_6_checked">
-                            <h1>❐ 委託訂製服 - 背心外套 ❏</h1>
+                            <h1 id="vest_coat">❐ 委託訂製服 - 背心外套 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -773,7 +891,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_7_checked">
-                            <h1>❐ 委託訂製服 - 開襟背心 ❏</h1>
+                            <h1 id="activity_vest">❐ 委託訂製服 - 活動背心 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -828,7 +946,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_8_checked">
-                            <h1>❐ 委託訂製服 - 特殊版型 ❏</h1>
+                            <h1 id="special">❐ 委託訂製服 - 特殊版型 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4">
@@ -851,9 +969,9 @@
                     <label for="top_9_checked">
                         <p class="top_p_9">▼▼▼▼▼▼▼▼▼展開▼▼▼▼▼▼▼▼▼</p>
                     </label>
-                    <div class="border_box">
+                    <div class="border_box" id="coat">
                         <label for="top_9_checked">
-                            <h1>❐ 委託訂製服 - 長袖外套 ❏</h1>
+                            <h1 id="long_coat">❐ 委託訂製服 - 長袖外套 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4">
@@ -884,7 +1002,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_10_checked">
-                            <h1>❐ 委託訂製服 - 實驗衣 ❏</h1>
+                            <h1 id="lab_coat">❐ 委託訂製服 - 實驗衣 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -917,7 +1035,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_11_checked">
-                            <h1>❐ 委託訂製服 - 裙 ❏</h1>
+                            <h1 id="skirt">❐ 委託訂製服 - 裙 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -940,7 +1058,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_12_checked">
-                            <h1>❐ 委託訂製服 - 褲 ❏</h1>
+                            <h1 id="pants">❐ 委託訂製服 - 褲 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_1">
@@ -965,7 +1083,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_13_checked">
-                            <h1>❐ 委託訂製服 - 運動類 ❏</h1>
+                            <h1 id="sports">❐ 委託訂製服 - 運動類 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_3">
@@ -988,7 +1106,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_14_checked">
-                            <h1>❐ 委託訂製服 - 小東西 ❏</h1>
+                            <h1 id="little_things">❐ 委託訂製服 - 小東西 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -1013,7 +1131,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_15_checked">
-                            <h1>❐ 委託訂製服 -  值星官_背帶 ❏</h1>
+                            <h1 id="strap">❐ 委託訂製服 -  值星官_揹帶 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_1">
@@ -1052,7 +1170,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_16_checked">
-                            <h1>❐ 委託訂製服 -  帽子 ❏</h1>
+                            <h1 id="hat">❐ 委託訂製服 -  帽子 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
@@ -1077,7 +1195,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_17_checked">
-                            <h1>❐ 委託訂製服 -  圍裙 ❏</h1>
+                            <h1 id="apron">❐ 委託訂製服 -  圍裙 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_1">
@@ -1244,7 +1362,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_18_checked">
-                            <h1>❐ 委託訂製服 -  方巾 + 領巾 ❏</h1>
+                            <h1 id="scarf">❐ 委託訂製服 -  方巾 + 領巾 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_1">
@@ -1317,7 +1435,7 @@
                     </label>
                     <div class="border_box">
                         <label for="top_19_checked">
-                            <h1>❐ 委託訂製服 -  臂章 ❏</h1>
+                            <h1 id="armband">❐ 委託訂製服 -  臂章 ❏</h1>
                         </label>
                         <hr/>
                         <div class="product_container_4_2">
