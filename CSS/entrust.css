@@ -22,3 +22,56 @@
     background-color: floralwhite;
     cursor: pointer;
 }*/
+.entrust_container{
+                margin: 20px 0 0 0;
+                padding: 0;
+            }
+            .entrust_container .entrust_box{
+                width: 115px;
+                height: 40px;
+                border: 5px outset #000;
+                border-radius: 30%;
+                text-align: center;
+                line-height: 40px;
+                list-style: none;
+                margin: 10px 0 0 70px;
+                font-size: 18px;
+                float: left;
+            }
+            .entrust_container .entrust_box a{
+                text-decoration: none;
+                color: #333;
+                font-weight: 900;
+                letter-spacing: 5px;
+            }
+            .entrust_container .entrust_box:hover{
+                background-color: #000;
+            }
+            .entrust_container .entrust_box:hover a{
+                color: #fff;
+            }
+            .top_btn{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                background-color: #ccc;
+                right: 20px;
+                bottom: 20px;
+                position: fixed;
+                opacity: .7;
+                line-height: 80px;
+                font-weight: 900;
+                font-size: 24px;
+                letter-spacing: 2px;
+                z-index: 1000;
+                box-shadow: 2px 2px 2px #333;
+            }
+            .top_btn a{
+                text-decoration: none;
+                color: #333;
+            }
+            @media screen and (max-width:990px){
+                .entrust_container .entrust_box{
+                    margin: 10px 0 0 33px;
+                }
+            }
