@@ -81,7 +81,7 @@
     display: none;
 }
 #porduct_information:checked ~ .sale_image{
-    width: 1210px;
+    width: 828px;
     height: 1225px;
     background-image: url("sale_img/My%20project-1.jpg");
     background-position: right;
