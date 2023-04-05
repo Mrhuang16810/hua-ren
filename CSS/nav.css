@@ -49,8 +49,10 @@ nav .hamburger_outside .hamburger_section{
     top: 64px;
     right: 0;
 }
-nav .hamburger_outside .hamburger_section a .hamburger_section_item{
+nav .hamburger_outside .hamburger_section a{
     text-decoration: none;
+}
+nav .hamburger_outside .hamburger_section a .hamburger_section_item{
     color: #fff;
     height: 64px;
     padding: 0 10px 0 10px;
@@ -73,12 +75,14 @@ nav .hamburger_outside .hamburger_section .hamburger_section_item:hover{
         top: auto;
         background-color: transparent;
         transform: scaleY(1);
-        text-decoration: none;
     }
     nav .hamburger_outside .hamburger_section .hamburger_section_item{
         float: left;
         margin: 0 20px 0 20px;
         height: 64px;
         line-height: 64px;
+    }
+    nav .hamburger_outside .hamburger_section a{
+        text-decoration: none;
     }
 }
